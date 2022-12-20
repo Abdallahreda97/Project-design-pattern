@@ -6,9 +6,10 @@ class whiteloaf
 public:
 void Methodwhiteloaf(){
 int q;
+int price = 10;
 cout << "write quantity" << endl;
 cin>>q;
-cout<<q<<" "<<"white loaf" << endl; };
+cout<<q<<" "<<"white loaf" <<" "<<"total price is "<<q*price <<"$"<< endl; };
 };
 
 
@@ -18,9 +19,10 @@ class Brownloaf
 public:
 void MethodBrownloaf(){
 int q;
+int price = 20;
 cout << "write quantity" << endl;
 cin>>q;
-cout<<q<<" "<<"Brown loaf" << endl; };
+cout<<q<<" "<<"Brown loaf" <<" "<<"total price is "<<q*price <<"$"<< endl; };
 };
 
 
@@ -30,9 +32,10 @@ class Baguette
 public:
 void MethodBaguette(){
 int q;
+int price = 30;
 cout << "write quantity" << endl;
 cin>>q;
-cout<<q<<" "<<"Baguette" << endl; };
+cout<<q<<" "<<"Baguette" <<" "<<"total price is "<<q*price <<"$"<< endl; };
 };
 
 
@@ -44,11 +47,13 @@ public:
 void MethodwhiteloafandBrownloaf(){
 int q1;
 int q2;
+int price1 = 10;
+int price2 = 20;
 cout<< "write quantity of white loaf" << endl;
 cin>>q1;
 cout << "write quantity of Brown loaf" << endl;
 cin>>q2;
-cout << q1<<" "<<"white loaf and"<<" "<< q2<<" "<<"Brown loaf" << endl; };
+cout << q1<<" "<<"white loaf and"<<" "<< q2<<" "<<"Brown loaf" <<" "<<"total price is "<<q1*price1 + q2*price2<<"$   " <<"total count is "<<q1+q2<< endl; };
 };
 
 
@@ -59,11 +64,13 @@ void MethodwhiteloafandBaguette(){
 
 int q1;
 int q2;
+int price1 = 10;
+int price2 = 30;
 cout<< "write quantity of white loaf" << endl;
 cin>>q1;
 cout << "write quantity of Baguette" << endl;
 cin>>q2;
-cout << q1<<" "<<"white loaf and"<<" "<< q2<<" "<<"Baguette" << endl; };
+cout << q1<<" "<<"white loaf and"<<" "<< q2<<" "<<"Baguette" <<" "<<"total price is "<<q1*price1 + q2*price2<<"$   " <<"total count is "<<q1+q2<< endl; };
 };
 
 
@@ -73,11 +80,13 @@ public:
 void MethodBrownloafandBaguette(){
 int q1;
 int q2;
+int price1 = 20;
+int price2 = 30;
 cout<< "write quantity of Brown loaf" << endl;
 cin>>q1;
 cout << "write quantity of Baguette" << endl;
 cin>>q2;
-cout << q1<<" "<<"Brown loaf and"<<" "<< q2<<" "<<"Baguette" << endl; };
+cout << q1<<" "<<"Brown loaf and"<<" "<< q2<<" "<<"Baguette" <<" "<<"total price is "<<q1*price1 + q2*price2<<"$   " <<"total count is "<<q1+q2<< endl; };
 };
 
 
@@ -88,13 +97,16 @@ void MethodwhiteloafandBrownloafandBaguette(){
 int q1;
 int q2;
 int q3;
+int price1 = 10;
+int price2 = 20;
+int price3 = 30;
 cout<< "write quantity of white loaf" << endl;
 cin>>q1;
 cout << "write quantity of Brown loaf" << endl;
 cin>>q2;
 cout << "write quantity of Baguette" << endl;
 cin>>q3;
-cout << q1<<" "<<"white loaf ,"<<" "<< q2<<" "<<"Brown loaf and " << q3<<" "<<"Baguette"<< endl; };
+cout << q1<<" "<<"white loaf ,"<<" "<< q2<<" "<<"Brown loaf and " << q3<<" "<<"Baguette"<<" "<<"total price is "<<q1*price1 + q2*price2 +q3*price3<<"$   " <<"total count is "<<q1+q2+q3<< endl; };
 };
 
 
